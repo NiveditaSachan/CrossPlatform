@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]" guice-stage="DEVELOPMENT">
+  <test name="Smoke Test Cases(failed)">
+    <classes>
+      <class name="com.lemoney.driver.MobileAirtelPrepaid">
+        <methods>
+          <include name="Services"/>
+        </methods>
+      </class> <!-- com.lemoney.driver.MobileAirtelPrepaid -->
+      <class name="com.lemoney.driver.HomePage">
+        <methods>
+          <include name="startAppiumServer"/>
+          <include name="closeAppium"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- com.lemoney.driver.HomePage -->
+    </classes>
+  </test> <!-- Smoke Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
